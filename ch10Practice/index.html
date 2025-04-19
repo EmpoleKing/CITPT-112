@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Magic TCG Hobbyist Site - Signup Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the World of Magic: The Gathering</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    </header>
+    <h2>Register with us!</h2>
+    <form id="signupForm">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username">
+        <p id="nameError" class="error" style="display: none;">Name is required</p>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email">
+        <p id="emailError" class="error" style="display: none;">Invalid email address</p>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Your Password">
+        <p id="passwordError" class="error" style="display: none;">Password must be at least 8 characters</p>
+    </div>
+    <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+        <p id="confirmPasswordError" class="error" style="display: none;">Passwords do not match</p>
+        </div>
+        <button type="submit" id="submitButton" disabled>Sign Up</button>
+    </form>
+    <br>
+    <footer>
+        <small>
+            All original content on this page is © Grant Dearing. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2025 Wizards. All rights reserved. Grant Dearing is not affiliated with Wizards of the Coast LLC.<br> Feel free to reach out to:
+            <a href="mailto:gjdearing849@students.lcstate.edu">gjdearing849@students.lcstate.edu</a> with any questions, concerns, or feedback.
+        </small>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

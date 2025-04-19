@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3f3535;
+    color: #c4c1c1;
+}
+
+header {
+    background-color: #941414;
+    background-image: url(../media/lightning.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(140, 133, 151);
+    padding: 1em;
+    text-align: left;
+    font-family: Georgia, serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+header h1 {
+    color: rgb(211, 189, 189);
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+    color: rgb(211, 189, 189);
+    font-weight: bold;
+    grid-template-rows: auto auto;
+    align-self: flex-start;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding: 0;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #2b2929;
+}
+
+nav a {
+    color: rgb(223, 175, 175);
+    padding: 1em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ff8181;
+}
+
+main {
+    padding: 2em;
+}
+
+main h2 {
+    color: #ff8181;
+}
+
+main a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.video-container {
+    flex: 1;
+    margin-right: 2em;
+}
+
+.text-container {
+    flex: 2;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.card-type {
+    background-color: #3f3535;
+    padding: 1em;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex: 1 1 calc(33.333% - 1em);
+    margin: 0.5em;
+    text-align: left;
+}
+
+.card-type img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0 0 0;
+    max-width: 150px;
+    margin-right: 1em;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-type h3 {
+    color: #ff8181;
+}
+
+.card-type p {
+    color: #c4c1c1;
+}
+
+footer {
+    font-size: 0.80em;
+    font-style: italic;
+    text-align: center;
+    color: rgb(238, 184, 184);
+    padding: 1em;
+    background-color: #2b2929;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
